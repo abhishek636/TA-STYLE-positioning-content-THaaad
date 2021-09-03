@@ -1,15 +1,53 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="heading">
+        <h1>PUMA</h1>
+        <nav>
+            <a href="#">facebook</a>
+            <a href="#">mail</a>
+            <a href="#">instagram</a>
+            <a href="#">whatsaapp</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="float">
+                <aside class="artical">
+                    <h2>Introduction</h2>
+                    <p>Puma SE, branded as Puma, is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories, which is headquartered in Herzogenaurach, Bavaria, Germany. Puma is the third largest sportswear manufacturer in the world.[4] The company was founded in 1948 by Rudolf Dassler. In 1924, Rudolf and his brother Adolf "Adi" Dassler had jointly formed the company Gebrüder Dassler Schuhfabrik (Dassler Brothers Shoe Factory). The relationship between the two brothers deteriorated until the two agreed to split in 1948, forming two separate entities, Adidas and Puma. Both companies are currently based in Herzogenaurach, Germany.</p>
+                </aside>
+                <aside>
+                    <img src="./media/puma.jpg" alt="puma">
+                </aside>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2 style="margin-left: 10px;">Gallery section</h2>
+                <div>
+                    <img src="./media/image1.jpg" alt="image1"  class="image2">
+                    <img src="./media/image4.jpg" alt="image4"  class="image2">
+                    <img src="media/images3.jpg" alt="images3"  class="image2">
+                </div>
+                <div>
+                    <img src="./media/image5.jpg" alt="image5"  class="image2">
+                    <img src="./media/image2.jpg" alt="image2"  class="image2">
+                    <img src="media/image6.jpg" alt="images6"  class="image2">
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href="#" class="back">Top</a>
+    </footer>
+    
+</body>
+</html>
